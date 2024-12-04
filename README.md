@@ -45,3 +45,4 @@ A powerful task management application built with React and Redux. This dashboar
 ```
 
 #### Live Hosted Link
+https://brandkilndashboard.netlify.app/dashboard
