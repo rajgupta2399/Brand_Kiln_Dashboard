@@ -1,4 +1,3 @@
-
 const buttonBase = {
   defaultProps: {
     disableRipple: false,

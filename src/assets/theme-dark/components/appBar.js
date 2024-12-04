@@ -1,4 +1,3 @@
-
 const appBar = {
   defaultProps: {
     color: "transparent",

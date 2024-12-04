@@ -1,4 +1,3 @@
-
 /**
  * The base typography styles for the Material Dashboard 2 React.
  * You can add new typography style using this file.

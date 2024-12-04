@@ -1,4 +1,3 @@
-
 const listItem = {
   defaultProps: {
     disableGutters: true,

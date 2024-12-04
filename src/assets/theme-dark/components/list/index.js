@@ -1,4 +1,3 @@
-
 const list = {
   styleOverrides: {
     padding: {

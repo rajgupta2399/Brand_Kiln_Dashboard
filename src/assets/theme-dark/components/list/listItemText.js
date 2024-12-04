@@ -1,4 +1,3 @@
-
 const listItemText = {
   styleOverrides: {
     root: {
