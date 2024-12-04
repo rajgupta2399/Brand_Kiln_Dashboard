@@ -33,6 +33,7 @@ import SignUp from "layouts/authentication/sign-up";
 // @mui icons
 import Icon from "@mui/material/Icon";
 import AddTask from "layouts/addTask";
+import ShowTask from "layouts/showTask";
 
 const routes = [
   {
@@ -53,12 +54,20 @@ const routes = [
   },
   {
     type: "collapse",
-    name: "Tables",
-    key: "tables",
-    icon: <Icon fontSize="small">table_view</Icon>,
-    route: "/tables",
-    component: <Tables />,
+    name: "Show Task",
+    key: "showTask",
+    icon: <Icon fontSize="small">notifications</Icon>,
+    route: "/showTask",
+    component: <ShowTask />,
   },
+  // {
+  //   type: "collapse",
+  //   name: "Tables",
+  //   key: "tables",
+  //   icon: <Icon fontSize="small">table_view</Icon>,
+  //   route: "/tables",
+  //   component: <Tables />,
+  // },
   // {
   //   type: "collapse",
   //   name: "RTL",

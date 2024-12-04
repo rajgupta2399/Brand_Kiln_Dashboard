@@ -1,0 +1,10 @@
+.addTask {
+    color: white; /* Change text color to white */
+    background-color: #1976d2; /* Optional: Custom background color */
+    font-weight: bold; /* Optional: Make the text bold */
+  }
+  
+  .addTask:hover {
+    background-color: #2f8be8; /* Optional: Custom hover background color */
+  }
+  

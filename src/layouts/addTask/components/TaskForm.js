@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { TextField, Button, Box, Paper } from "@mui/material";
 import { useDispatch } from "react-redux";
 import { addTask } from "store/taskSlice";
+import "./TaskForm.css";
 
 const TaskForm = () => {
   const [task, setTask] = useState({ title: "", description: "", dueDate: "" });
@@ -16,7 +17,7 @@ const TaskForm = () => {
   };
   return (
     <div>
-      <Paper sx={{ p: 2, mb: 2 }}>
+      <Paper sx={{ p: 3, mb: 0 }}>
         <form onSubmit={handleSubmit}>
           <Box sx={{ display: "flex", flexDirection: "column", gap: 2 }}>
             <TextField
@@ -39,7 +40,7 @@ const TaskForm = () => {
               onChange={(e) => setTask({ ...task, dueDate: e.target.value })}
               InputLabelProps={{ shrink: true }}
             />
-            <Button variant="contained" type="submit">
+            <Button variant="contained" type="submit" className="addTask">
               Add Task
             </Button>
           </Box>
