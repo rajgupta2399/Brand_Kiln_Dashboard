@@ -94,7 +94,7 @@ function Dashboard() {
         </Grid> */}
         <MDBox mt={4.5}>
           <Grid container spacing={3}>
-            <Grid item xs={12} md={6} lg={4}>
+            {/* <Grid item xs={12} md={6} lg={4}>
               <MDBox mb={3}>
                 <ReportsBarChart
                   color="info"
@@ -104,8 +104,8 @@ function Dashboard() {
                   chart={reportsBarChartData}
                 />
               </MDBox>
-            </Grid>
-            <Grid item xs={12} md={6} lg={4}>
+            </Grid> */}
+            <Grid item xs={12} md={6} lg={6}>
               <MDBox mb={3}>
                 <ReportsLineChart
                   color="success"
@@ -120,10 +120,10 @@ function Dashboard() {
                 />
               </MDBox>
             </Grid>
-            <Grid item xs={12} md={6} lg={4}>
+            <Grid item xs={12} md={6} lg={6}>
               <MDBox mb={3}>
                 <ReportsLineChart
-                  color="dark"
+                  color="primary"
                   title="completed tasks"
                   description="Last Campaign Performance"
                   date="just updated"

@@ -170,7 +170,7 @@ export default function App() {
             onMouseLeave={handleOnMouseLeave}
           />
           {/* Side Setting */}
-          {/* <Configurator /> */}
+          <Configurator />
           {configsButton}
         </>
       )}
